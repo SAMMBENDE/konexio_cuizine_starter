@@ -1,0 +1,54 @@
+
+.navbar-logo {
+    font-family: 'Courgette', cursive;
+    color: white;
+    font-size: 20px; 
+}
+
+
+/*TAKE NOTE THE LINEAR GRADIENT ENABLES THE BACKGROUND IMAGE TO BE A LITTLE DARKER*/
+header {
+    background-image: linear-gradient(rgba(0,0,0,0.7),  rgba(0,0,0,0.7)), url(../img/header.jpg);
+    height: 80vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.navbar .navbar-nav .nav-item .nav-link {
+    color: white;
+    
+    
+}
+.navbar-toggler {
+    color: white;
+}
+.showcase {
+    color: white;
+    font-family: 'Courgette', cursive;
+    font-style: italic;
+    text-align: center;
+}
+.text-center {
+    padding-top: 15px;
+}
+img {
+    margin-bottom: 15px; 
+    padding-top: 15px;   
+}
+
+h3, h5 {
+    font-family: 'Oswald', sans-serif;
+} 
+h2, h4{
+   font-family: 'Courgette', cursive; 
+   
+}  
+footer {
+    background-color: black;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+} 
+footer a {
+    color: white;
+}  
